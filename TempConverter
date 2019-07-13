@@ -1,0 +1,12 @@
+fTemp = input("What is the temperature in Fahrenheit?")
+celsius = (float(fTemp) -32)*5/9
+print(
+    "%.1f degrees Fahrenheit equals %.1f dregrees celsius"
+    % (float(fTemp), celsius)
+    )
+cTemp = input("What is the temperature in Celsius?")
+fahr = (float(cTemp) * 9/5 +32)
+print(
+    "%.1f degrees Celsius equals %.1f dregrees farhenheit"
+    % (float(cTemp), fahr)
+    )
